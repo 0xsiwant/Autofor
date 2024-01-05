@@ -4,10 +4,6 @@
   "repository": "https://github.com/yourusername/your-telegram-bot-repo",
   "logo": "https://example.com/path/to/your/logo.png",
   "keywords": ["telegram", "bot", "forward", "python"],
-  "addons": [
-    "heroku-postgresql:eco-dev",
-    "scheduler:standard"
-  ],
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
@@ -26,12 +22,9 @@
       "required": false
     }
   },
-  "scripts": {
-    "heroku-postbuild": "python setup.py"
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  }
+  "buildpacks":
+        [
+            {"url": "heroku/python"}
+        ]      
 }
+  
