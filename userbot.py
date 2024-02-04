@@ -6,7 +6,7 @@ from database import Database
 from config import API_ID, API_HASH, USERBOT_SESSION_NAME
 
 # Initialize the userbot client
-userbot = Client(USERBOT_SESSION_NAME, api_id=API_ID, api_hash=API_HASH)
+userbot = Client(USERBOT_SESSION_NAME, api_id=18923971, api_hash=78f80e014130f4ec3964550d4e87af61)
 
 # Initialize the database
 db = Database()
