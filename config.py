@@ -1,11 +1,11 @@
 import os
 
 # Pyrogram API credentials
-API_ID = int(os.environ.get("API_ID", 26930530))
-API_HASH = os.environ.get("API_HASH", "b578cec1f4f5164d952c5a785a399a73")
+API_ID = int(os.environ.get("API_ID", 18923971))
+API_HASH = os.environ.get("API_HASH", "78f80e014130f4ec3964550d4e87af61")
 
 # Bot token
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6934132388:AAFPrFN5CMC7K37W8cmaNlayEc1dyqpAER8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6801681333:AAHmfygxg6Obl84JvDu915Nwxnu2v_2zRUk")
 
 # Pyrogram session name
 SESSION_NAME = os.environ.get("SESSION_NAME", "ForwadBot")
