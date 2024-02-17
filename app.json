@@ -1,8 +1,8 @@
 {
   "name": "your-telegram-bot",
   "description": "Your Telegram Forward Bot",
-  "repository": "https://github.com/yourusername/your-telegram-bot-repo",
-  "logo": "https://example.com/path/to/your/logo.png",
+  "repository": "https://github.com/0xsiwant/Autofor",
+  "logo": "https://github.com/0xsiwant/Autofor",
   "keywords": ["telegram", "bot", "forward", "python"],
   "env": {
     "API_ID": {
